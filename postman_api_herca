@@ -1,0 +1,55 @@
+{
+    "info": {
+        "_postman_id": "a43cc412-59ce-4345-bb3e-64ff5e7ce946",
+        "name": "api_herca",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "commissions",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:8000/api/commissions",
+                    "path": [
+                        "api",
+                        "commissions"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000"
+                }
+            }
+        },
+        {
+            "name": "pay",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://localhost:8000/api/pay",
+                    "path": [
+                        "api",
+                        "pay"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"transaction_number\": \"TRX002\",\n  \"payment_amount\": 20000,\n  \"month\": 1,\n  \"year\": 2025\n}"
+                }
+            }
+        }
+    ]
+}
