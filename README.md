@@ -17,3 +17,5 @@
 - Run command `php artisan migrate` di command prompt
 - Run command `php artisan db:seed` di command prompt
 - Run command `php artisan serve` di command prompt
+- Nama collection API: postman_api_herca
+- API sudah bisa dijalankan
