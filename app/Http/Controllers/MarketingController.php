@@ -9,9 +9,7 @@ class MarketingController extends Controller
 {
     public function getCommission() {
         $data = Marketing::ApiGetCommission()->toArray();
-        dd($data);
-        return [
-            "message" => "Hello world"
-        ];
+
+        return $this->api_response(200, "Data successfully retrieved", $data);
     }
 }
