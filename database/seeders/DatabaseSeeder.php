@@ -16,6 +16,18 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        Marketing::insert([
+            [
+                "name" => "Alfandy"
+            ],
+            [
+                "name" => "Mery"
+            ],
+            [
+                "name" => "Danang"
+            ],
+        ]);
+
         Sales::insert([
             [
                 "transaction_number" => "TRX001",

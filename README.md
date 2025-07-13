@@ -15,4 +15,5 @@
 - Sesuaikan konfigurasi databasenya. Untuk konfigurasi databasenya diawali dengan DB_. Pastikan DB_CONNECTION-nya pgsql
 - Run command `composer install` di command prompt
 - Run command `php artisan migrate` di command prompt
+- Run command `php artisan db:seed` di command prompt
 - Run command `php artisan serve` di command prompt
